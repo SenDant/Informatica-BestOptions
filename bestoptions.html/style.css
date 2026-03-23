@@ -1,0 +1,45 @@
+ header {
+   position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+    z-index: 999;
+ }
+header {
+   display:flex;
+    justify-content: space-between;
+}
+ .searchbox {
+   top: 5rem;
+   background-color: white;
+   background-border: gray;
+   height: 40px;
+   width: 80px;
+   border: 1px solid lightgrey;
+   text-align: right;
+   font-size: 16px;
+   font-weight: bold;
+   border-radius: 1rem;
+   color: gray;
+   font-family: sans-serif;
+ }
+
+body {
+   height:10000px;
+}
+.sugoma {
+   height:700px;
+   width: 400px;
+   background-color:peru;
+}
+#box{
+   height: 700px;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+}
+
+footer{text-align:center;font-size:20px
+}
