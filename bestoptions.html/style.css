@@ -12,18 +12,19 @@ header {
     justify-content: space-between;
 }
  .searchbox {
-   top: 5rem;
-   background-color: white;
-   background-border: gray;
-   height: 40px;
-   width: 80px;
-   border: 1px solid lightgrey;
-   text-align: right;
-   font-size: 16px;
+   padding-top: 12px;
+   padding-right: 2rem;
+   top: 10px;
    font-weight: bold;
+   background-color: white;
+   height: 30px;
+   width: 300px;
+   font-size: 20px;
    border-radius: 1rem;
-   color: gray;
    font-family: sans-serif;
+ }
+ #search {
+   font-size: 20px;
  }
 
 body {
